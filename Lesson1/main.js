@@ -91,17 +91,4 @@ console.log(personn);
 
 
 
-let book2 = {
-    title: 'asywqef',
-    pages: 123,
-    genre: 'ufyq',
-    authors: [
-        'asufdhgasfd',
-        'yrytry',
-        'ywytfqwe'
-    ]
-}
-
-console.log(book2);
-
 
