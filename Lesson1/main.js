@@ -82,20 +82,26 @@ console.log(person);
 
 
 
-let name = prompt();
-let middlenamee = prompt();
-let age = prompt();
-console.log(name,middlenamee,age);
+let name = prompt(`enter your first name`);
+let middlenamee = prompt( `enter your middlename`);
+let age = prompt(`enter your age`);
+let personn = `${name} ${middlenamee} ${age}`;
+console.log(personn);
 
 
 
 
+let book2 = {
+    title: 'asywqef',
+    pages: 123,
+    genre: 'ufyq',
+    authors: [
+        'asufdhgasfd',
+        'yrytry',
+        'ywytfqwe'
+    ]
+}
 
-
-
-
-
-
-
+console.log(book2);
 
 
