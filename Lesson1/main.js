@@ -1,3 +1,6 @@
+
+
+
 let a =`Hello`;
 console.log(a);
 alert(a);
@@ -85,8 +88,11 @@ console.log(person);
 let name = prompt(`enter your first name`);
 let middlenamee = prompt( `enter your middlename`);
 let age = prompt(`enter your age`);
-let personn = `${name} ${middlenamee} ${age}`;
-console.log(personn);
+console.log(name);
+console.log(middlenamee);
+console.log(+age);
+
+
 
 
 
