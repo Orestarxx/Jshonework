@@ -75,7 +75,7 @@ console.log(book6)
 
 // - Створити масив з 10 об'єктами які описують сутніть "користувач". Поля: name, username,password. Вивести в консоль пароль кожного користувача
 
-let Users = [
+let users = [
     { name:`Diana`, username:`pickle` , password:2233311},
     { name:`Petro`, username:`Egg` , password:12412121555 },
     { name:`Ivan`, username:`Apple` , password:343425555555 },
@@ -87,16 +87,16 @@ let Users = [
     { name: `Nadia` , username:`Pineapple`, password:845346366346346 },
     { name:`Maria`, username:`Milk`, password:9565464326236236634 }
 ];
-console.log(Users[0][`password`])
-console.log(Users[1][`password`])
-console.log(Users[2][`password`])
-console.log(Users[3][`password`])
-console.log(Users[4][`password`])
-console.log(Users[5].password)
-console.log(Users[6].password)
-console.log(Users[7].password)
-console.log(Users[8].password)
-console.log(Users[9].password)
+console.log(users[0][`password`])
+console.log(users[1][`password`])
+console.log(users[2][`password`])
+console.log(users[3][`password`])
+console.log(users[4][`password`])
+console.log(users[5].password)
+console.log(users[6].password)
+console.log(users[7].password)
+console.log(users[8].password)
+console.log(users[9].password)
 
 
 
