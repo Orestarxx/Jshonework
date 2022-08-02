@@ -11,7 +11,7 @@
 
 //
 // for (let i = 0; i < 10;  i++ ) {
-//     document.write(`<div>${i} random text </div>`)
+//     document.write(`<div>${i} random text </div>`);
 // }
 
 
@@ -20,8 +20,8 @@
 
 // let i = 0
 // while( i<=20){
-//     document.write(`<div><h1>Hello world</h1></div>`)
-//     i++
+//     document.write(`<div><h1>Hello world</h1></div>`);
+//     i++;
 // }
 
 
@@ -30,15 +30,15 @@
 
 // let i = 0
 // while( i<=20){
-//     document.write(`<div>${i}<h1>Hello world</h1></div>`)
-//     i++
+//     document.write(`<div>${i}<h1>Hello world</h1></div>`);
+//     i++;
 // }
 
 
 // - Використовуючи данні з масиву, за допомоги document.write та циклу
 // побудувати структуру по шаблону
 
-
+//
 //     let listOfItems = ['html', 'css', 'javascript', 'mysql', 'mongodb', 'react', 'angular', 'node.js'];
 //
 // for( let listOfItem of listOfItems){
@@ -48,7 +48,7 @@
 //                      <li>${listOfItem}</li>
 //             </ul>`
 //
-//     )
+//     );
 // }
 
 // -----------------------------------------------
@@ -86,13 +86,13 @@
 //             <h3 class="product-title">${product.title} ${product.price}</h3>
 //        <img src="${product.image}" alt="products" class = "product-picture">
 //         </div>`
-//     )
+//     );
 // }
 //
 
 // --------------------
 
-
+//
 // let users = [
 //     {name: 'vasya', age: 31, status: false},
 //     {name: 'petya', age: 30, status: true},
@@ -110,10 +110,10 @@
 //     - користувачів зі статусом true
 
 
-// // for( let user of users) {
-// //     if (user.status) {
-// //         console.log(user);
-// //     }
+// for( let user of users) {
+//     if (user.status) {
+//         console.log(user);
+//     }
 // }
 
 
@@ -129,7 +129,7 @@
 
 // - користувачів які старші за 30 років
 
-
+//
 // for( let user of users) {
 //     if (user.age>30) {
 //         console.log(user);
