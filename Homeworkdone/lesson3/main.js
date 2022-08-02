@@ -64,7 +64,7 @@
 // - Скласти розклад на тиждень за домопоги switch. Користувач вводить порядковий номер дня тижня і на екрані відображається інфа що заплановано на цей день (можна замість плану на день, назву дня англійською).
 
 
-// let week = prompt(`enter day`);
+// let week =`1`;
 // switch(week){
 //     case'1':
 //         document.write(`1)do something smart`);
@@ -145,9 +145,38 @@
 
 
 
-
-
-
+// let week =7;
+// switch(week){
+//     case 1:
+//         document.write(`1)do something smart`);
+//         break;
+//     case 2:
+//         document.write(`1)learn smth`);
+//         break;
+//     case 3:
+//         document.write(`1)do smth`);
+//         break;
+//     case 4:
+//         document.write(`1)take extra`);
+//         break;
+//     case 5:
+//         document.write(`1)play smth`);
+//         break;
+//     case 6:
+//         document.write(`1) take care of`);
+//         break;
+//     case 7:
+//         if(week<= 6){
+//             console.log(`you lost`)
+//         }else{
+//             console.log(`gg`)
+//         }
+//
+//         break;
+//     default:
+//         confirm(`Write it correctly`);
+//
+// }
 
 
 
