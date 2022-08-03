@@ -38,19 +38,22 @@
 // - Використовуючи данні з масиву, за допомоги document.write та циклу
 // побудувати структуру по шаблону
 
-//
+
 //     let listOfItems = ['html', 'css', 'javascript', 'mysql', 'mongodb', 'react', 'angular', 'node.js'];
+//
+// document.write(`<ul>`)
+//
 //
 // for( let listOfItem of listOfItems){
 //     document.write(
 //
-//             `<ul>
-//                      <li>${listOfItem}</li>
-//             </ul>`
+//
+//                      `<li>${listOfItem}</li>`
+//
 //
 //     );
 // }
-
+// document.write(`</ul>`)
 // -----------------------------------------------
 //
 //     Використовуючи данні з масиву, за допомоги document.write та циклу
