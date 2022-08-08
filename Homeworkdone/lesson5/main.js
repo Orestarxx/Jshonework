@@ -98,7 +98,7 @@
 // //
 // function obj(users) {
 //     for (const user of users) {
-//         document.write(`<div class="father">
+//         document.write(`<div>
 // <div>${user.name} - ${user.age}</div>
 // <div>${user.id}</div>
 // </div>`);
@@ -151,3 +151,5 @@
 // console.log(calc(`+`,1,2,7,8));
 // console.log(calc(`-`,34,3,1));
 //
+
+
