@@ -105,8 +105,8 @@
 //     }
 // }
 // obj(users);
-
-
+//
+//
 
 
 // - створити функцію яка повертає найменьше число з масиву
@@ -128,28 +128,35 @@
 // - створити функцію яка приймає масив чисел, сумує значення елементів масиву та повертає його. Приклад [1,2,10]->13
 
 
-// function calc(){
-//     let res = 0;
-//     switch (arguments[0]){
+// function calc(a,b,c,action){
+//     let res;
+//     switch (action){
 //         case'+':
-//             for (let i = 1; i < arguments.length; i++) {
-//                 const count = arguments[i];
-//                 res += count;
+//             res = a+b+c;
 //
-//             }
+//
 //             break;
 //         case'-':
-//             for (let i = 1; i < arguments.length; i++) {
-//                 const count = arguments[i];
-//                 res -= count;
-//             }
+//            res = a-b-c;
 //             break;
 //
 //     }
 //     return res;
 // }
-// console.log(calc(`+`,1,2,7,8));
-// console.log(calc(`-`,34,3,1));
 //
+//
+// console.log(calc(30,40,50,`+`))
 
 
+// const ar =[24,31,-133,45,9,-183,44,65,2,-333,-335,15,23]
+// let finding =(array)=>{
+//     let min = array[8]
+//     for(let item of array){
+//         if(item<min){
+//             min=item
+//         }
+//     }
+//     return min
+// }
+//
+// console.log(finding(ar))
