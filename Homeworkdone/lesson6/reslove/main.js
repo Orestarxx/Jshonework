@@ -1,10 +1,10 @@
 // - Знайти та вивести довижину настипних стрінгових значень 1)
 
 
-// let helo = 'hello world';
+// let hello = 'hello world';
 // let lor = 'lorem ipsum';
 // let java = 'javascript is cool';
-// console.log(helo.length);
+// console.log(hello.length);
 // console.log(lor.length);
 // console.log(java.length);
 
@@ -26,9 +26,13 @@
 
 // - Є "брудна" стрінга let str = ' dirty string   ' . Почистити її від зайвих пробілів. 4)
 
-// let str =  ` dirty string  `
+// let str =   ` dirty string  `
 // let cleanString = str.substring(1,13)
 // console.log(cleanString);
+
+// let orig = '  dirty string  ';
+// console.log(orig.trim());
+
 
 
 // - Напишіть функцію stringToarray(str), яка перетворює рядок на масив слів. 5)
