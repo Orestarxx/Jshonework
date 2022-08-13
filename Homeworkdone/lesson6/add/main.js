@@ -67,21 +67,29 @@
 //         modules: ['html', 'css', 'js', 'mysql', 'mongodb', 'react', 'angular', 'aws', 'docker', 'git' ,'sass']
 //     }
 // ]
-// for (const array of coursesArray[0].modules) {
-//    let hi = coursesArray[0].modules.sort((ind1,ind2)=>{
-//        if(ind1<ind2){
-//            return 1;
-//        }
-//        if(ind1>ind2){
-//            return -1;
-//        }
-//        if(ind1===ind2){
-//            return 0;
-//        }
-//    })
-//     console.log(hi);
+
+// for (let obj of coursesArray) {
+//
+//
+//
+//
+//         let hi = obj.modules.sort((ind1,ind2)=>{
+//             if(ind1>ind2){
+//                 return 1;
+//             }
+//             if(ind1<ind2){
+//                 return -1;
+//             }
+//             if(ind1===ind2){
+//                 return 0;
+//             }
+//
+//     })
+//     console.log(hi)
 // }
 //
+
+
 
 
 
@@ -285,4 +293,49 @@
 // console.log(calculator(21, 2, `%`));
 // console.log(calculator(20, 2, `+`));
 // console.log(calculator(20, 2, `-`));
+
+
+// let x =[1,9,4,8]
+// function calc(action,array){
+//    let res = 0;
+//     switch (action){
+//         case`+`:
+//             for (let i = 0; i < array.length; i++) {
+//                 const num = array[i];
+//                 res += num;
+//             }
+//             break;
+//         case`-`:
+//             for (let i = 0; i < array.length; i++) {
+//                 const num = array[i];
+//                 res -= num;
+//             }
+//             break;
+//
+//     }
+//
+//     return res;
+// }
+//
+// console.log(calc(`+`,x));
+//
+
+//
+
+// let x =(a,b,c,d) => (a+b)*c/d;
+// console.log(x(400, 500,2,3));
+
+
+//  function fake(...xxx){
+//      console.log(xxx);
+//  }
+//
+// fake(1,2,3,4,5,34325255)
+
+
+
+
+
+
+
 
