@@ -334,8 +334,115 @@
 
 
 
+// let string =`Almost six months after the closure of the EU airspace for Russian airplanes, ten aircraft owned or controlled by Russia are still in Germany, Redaktionsnetzwerk Deutschland (RND) reported on Sunday, citing the German Ministry of Transport.`
+//
+// // let upp = string.toUpperCase();
+// // console.log(upp);
+// // let low = upp.toLowerCase();
+// // console.log(low);
+//
+// let split = string.split(/[ ,]/)
+// console.log(split);
 
 
+// let arr =[`hello`,`you`,`dfdff`]
+
+// arr.push(`sdsdf`)
+// console.log(arr);
+// arr.pop()
+// console.log(arr);
+// arr.unshift(`lol`)
+// console.log(arr);
+// arr.shift()
+// console.log(arr);
+
+// arr.splice(0,1,`s`)
+// console.log(arr);
+
+// let arr = [31,54,6,7,88,55,89,-14]
+// let calc = arr.reduce((acc,value)=>acc<value?acc:value);
+// console.log(calc);
+
+// let users =[
+//     {player:`baster`, lvl:33, id:1},
+//     {player:`baster`, lvl:56, id:2},
+//     {player:`baster`, lvl:66, id:3},
+//     {player:`baster`, lvl:78, id:4},
+//     {player:`baster`, lvl:34, id:5},
+//     {player:`baster`, lvl:5, id:6},
+//     {player:`baster`, lvl:6, id:7},
+//     {player:`baster`, lvl:34, id:9},
+//     {player:`baster`, lvl:45, id:10},
+//     {player:`baster`, lvl:45, id:11},
+//     {player:`baster`, lvl:44, id:12},
+//     {player:`baster`, lvl:34, id:13},
+//     {player:`baster`, lvl:56, id:2},
+//     {player:`baster`, lvl:66, id:3},
+//     {player:`baster`, lvl:78, id:4},
+//     {player:`baster`, lvl:34, id:5},
+//     {player:`baster`, lvl:5, id:6},
+//     {player:`baster`, lvl:6, id:7},
+//     {player:`baster`, lvl:34, id:9},
+//     {player:`baster`, lvl:45, id:10},
+//     {player:`baster`, lvl:45, id:11},
+//     {player:`baster`, lvl:44, id:12},
+//     {player:`baster`, lvl:34, id:13},
+//     {player:`baster`, lvl:66, id:3},
+//     {player:`baster`, lvl:78, id:4},
+//     {player:`baster`, lvl:34, id:5},
+//     {player:`baster`, lvl:5, id:6},
+//     {player:`baster`, lvl:6, id:7},
+//     {player:`baster`, lvl:34, id:9},
+//     {player:`baster`, lvl:45, id:10},
+//     {player:`baster`, lvl:45, id:11},
+//     {player:`baster`, lvl:44, id:12},
+//     {player:`baster`, lvl:34, id:13},
+//     {player:`baster`, lvl:56, id:2},
+//     {player:`baster`, lvl:66, id:3},
+//     {player:`baster`, lvl:78, id:4},
+//     {player:`baster`, lvl:34, id:5},
+//     {player:`baster`, lvl:5, id:6},
+//     {player:`baster`, lvl:6, id:7},
+//     {player:`baster`, lvl:34, id:9},
+//     {player:`baster`, lvl:45, id:10},
+//     {player:`baster`, lvl:45, id:11},
+//     {player:`baster`, lvl:44, id:12},
+//     {player:`baster`, lvl:34, id:13},
+// ]
+// let play = users.sort((user1,user2 ) =>user2.lvl - user1.lvl)
+// console.log(play);
 
 
+// let reduce = users.reduce(function(acc,lvls){
+//
+//     if(lvls.lvl >1 && lvls.lvl <=30){
+//         acc.smalLvl.push(lvls)
+//     }
+//     if(lvls.lvl >30 && lvls.lvl <=50){
+//         acc.midleLvl.push(lvls)
+//     }
+//     if(lvls.lvl >50 && lvls.lvl <=120){
+//         acc.bigLvl.push(lvls)
+//     }
+// return acc
+//     },{bigLvl:[],midleLvl:[],smalLvl:[]}
+// )
+//
+// console.log(reduce);
 
+
+// function userBilder(name,age){
+//  let user = {name,age}
+//  return {
+//   getAge() {return user.age},
+//   setAge(age){if(age>0){user.age=age}},
+//   info(){return{...user}}
+//
+//  }
+// }
+//
+//
+// let ret = userBilder(`Tim`,31)
+// ret.setAge(23)
+// console.log(ret.getAge());
+// console.log(ret.info());
