@@ -364,50 +364,50 @@
 // console.log(calc);
 
 // let users =[
-//     {player:`baster`, lvl:33, id:1},
-//     {player:`baster`, lvl:56, id:2},
-//     {player:`baster`, lvl:66, id:3},
-//     {player:`baster`, lvl:78, id:4},
-//     {player:`baster`, lvl:34, id:5},
-//     {player:`baster`, lvl:5, id:6},
-//     {player:`baster`, lvl:6, id:7},
-//     {player:`baster`, lvl:34, id:9},
-//     {player:`baster`, lvl:45, id:10},
-//     {player:`baster`, lvl:45, id:11},
-//     {player:`baster`, lvl:44, id:12},
-//     {player:`baster`, lvl:34, id:13},
-//     {player:`baster`, lvl:56, id:2},
-//     {player:`baster`, lvl:66, id:3},
-//     {player:`baster`, lvl:78, id:4},
-//     {player:`baster`, lvl:34, id:5},
-//     {player:`baster`, lvl:5, id:6},
-//     {player:`baster`, lvl:6, id:7},
-//     {player:`baster`, lvl:34, id:9},
-//     {player:`baster`, lvl:45, id:10},
-//     {player:`baster`, lvl:45, id:11},
-//     {player:`baster`, lvl:44, id:12},
-//     {player:`baster`, lvl:34, id:13},
-//     {player:`baster`, lvl:66, id:3},
-//     {player:`baster`, lvl:78, id:4},
-//     {player:`baster`, lvl:34, id:5},
-//     {player:`baster`, lvl:5, id:6},
-//     {player:`baster`, lvl:6, id:7},
-//     {player:`baster`, lvl:34, id:9},
-//     {player:`baster`, lvl:45, id:10},
-//     {player:`baster`, lvl:45, id:11},
-//     {player:`baster`, lvl:44, id:12},
-//     {player:`baster`, lvl:34, id:13},
-//     {player:`baster`, lvl:56, id:2},
-//     {player:`baster`, lvl:66, id:3},
-//     {player:`baster`, lvl:78, id:4},
-//     {player:`baster`, lvl:34, id:5},
-//     {player:`baster`, lvl:5, id:6},
-//     {player:`baster`, lvl:6, id:7},
-//     {player:`baster`, lvl:34, id:9},
-//     {player:`baster`, lvl:45, id:10},
-//     {player:`baster`, lvl:45, id:11},
-//     {player:`baster`, lvl:44, id:12},
-//     {player:`baster`, lvl:34, id:13},
+//     {player:`baster`, lvl:33, id:1,status:true},
+//     {player:`baster`, lvl:56, id:2,status:true},
+//     {player:`baster`, lvl:66, id:3,status:true},
+//     {player:`baster`, lvl:78, id:4,status:true},
+//     {player:`baster`, lvl:34, id:5,status:true},
+//     {player:`baster`, lvl:5, id:6,status:true},
+//     {player:`baster`, lvl:6, id:7,status:true},
+//     {player:`baster`, lvl:34, id:9,status:true},
+//     {player:`baster`, lvl:45, id:10,status:true},
+//     {player:`baster`, lvl:45, id:11,status:true},
+//     {player:`baster`, lvl:44, id:12,status:true},
+//     {player:`baster`, lvl:34, id:13,status:false},
+//     {player:`baster`, lvl:56, id:2,status:false},
+//     {player:`baster`, lvl:66, id:3,status:false},
+//     {player:`baster`, lvl:78, id:4,status:false},
+//     {player:`baster`, lvl:34, id:5,status:false},
+//     {player:`baster`, lvl:5, id:6,status:false},
+//     {player:`baster`, lvl:6, id:7,status:false},
+//     {player:`baster`, lvl:34, id:9,status:false},
+//     {player:`baster`, lvl:45, id:10,status:false},
+//     {player:`baster`, lvl:45, id:11,status:false},
+//     {player:`baster`, lvl:44, id:12,status:false},
+//     {player:`baster`, lvl:34, id:13,status:true},
+//     {player:`baster`, lvl:66, id:3,status:true},
+//     {player:`baster`, lvl:78, id:4,status:true},
+//     {player:`baster`, lvl:34, id:5,status:true},
+//     {player:`baster`, lvl:5, id:6,status:true},
+//     {player:`baster`, lvl:6, id:7,status:true},
+//     {player:`baster`, lvl:34, id:9,status:true},
+//     {player:`baster`, lvl:45, id:10,status:true},
+//     {player:`baster`, lvl:45, id:11,status:true},
+//     {player:`baster`, lvl:44, id:12,status:true},
+//     {player:`baster`, lvl:34, id:13,status:true},
+//     {player:`baster`, lvl:56, id:2,status:true},
+//     {player:`baster`, lvl:66, id:3,status:false},
+//     {player:`baster`, lvl:78, id:4,status:false},
+//     {player:`baster`, lvl:34, id:5,status:false},
+//     {player:`baster`, lvl:5, id:6,status:false},
+//     {player:`baster`, lvl:6, id:7,status:false},
+//     {player:`baster`, lvl:34, id:9,status:false},
+//     {player:`baster`, lvl:45, id:10,status:false},
+//     {player:`baster`, lvl:45, id:11,status:false},
+//     {player:`baster`, lvl:44, id:12,status:false},
+//     {player:`baster`, lvl:34, id:13,status:false},
 // ]
 // let play = users.sort((user1,user2 ) =>user2.lvl - user1.lvl)
 // console.log(play);
@@ -446,3 +446,28 @@
 // ret.setAge(23)
 // console.log(ret.getAge());
 // console.log(ret.info());
+
+
+//  let sort = users.sort((u1,u2)=> u2.status - u1.status)
+// console.log(sort);
+
+
+// let counter =()=>{
+//     let count = 0
+//     return ()=> ++count
+//
+//
+// }
+// let counter1 = counter();
+//
+// console.log(counter1());
+// console.log(counter1());
+// console.log(counter1());
+// console.log(counter1());
+// console.log(counter1());
+
+
+// let cutString=(str,n)=>{
+//     return str.split(` `).slice(0,n).join(` `)
+// }
+// console.log(cutString(`Дарова бандити,як справи?`, 4));
