@@ -115,17 +115,17 @@
 //              }
 //              }
 //      }
-//      this.increaseMaxSpeed = function (newSpeed){this.maxSpeed = newSpeed}
+//      this.increaseMaxSpeed = function (newSpeed){this.maxSpeed += newSpeed}
 //      this.changeYear = function(newValue){this.year = newValue}
 //      this.addDriver = function (driver){this.driver = driver }
 //
 // }
 // let dr = new Car (`Superb`,`Shkoda`,2005,280,1.8  )
-// dr.drive()
-// dr.info()
-// dr.increaseMaxSpeed(400);
+// // dr.drive()
+// // dr.info()
+// dr.increaseMaxSpeed(20);
 // dr.changeYear(2007)
-// dr.addDriver(`Petrusik`)
+// dr.addDriver({ name:`Petrusik`,age:22})
 //
 // console.log(dr);
 
