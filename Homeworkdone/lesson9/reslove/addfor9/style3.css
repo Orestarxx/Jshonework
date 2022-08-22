@@ -1,0 +1,19 @@
+
+.main{
+    border: cadetblue 1px solid;
+    padding: 5px;
+
+}
+b{
+    color: red;
+}
+.address, .geo, .company{
+    display: flex;
+    flex-direction: column;
+}
+
+.second, .third, .fourth{
+    margin-left: 15px;
+    color: darkred;
+}
+
