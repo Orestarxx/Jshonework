@@ -76,8 +76,8 @@
 
 // let main1 = document.getElementsByClassName(`father`)
 // let main = main1[0];
-//
-//
+
+
 // for (const arr of coursesArray) {
 //     let t = document.createElement(`h1`);
 //     t.innerText = `${arr.title}`;

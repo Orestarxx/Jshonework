@@ -1,0 +1,43 @@
+body{
+    background: silver;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main{
+    /*border: cadetblue 1px solid;*/
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    background: white;
+}
+.second{
+    margin-left: 10px;
+}
+b{
+    color: darkred;
+}
+.info{
+    height: 50px;
+    width: 60%;
+    border: midnightblue 1px solid;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    margin-top: 20px;
+}
+.father{
+    margin-top: 40px;
+    /*border: midnightblue 1px solid;*/
+    border-radius: 5%;
+    width: 23%;
+    height: 300px;
+    padding: 5px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    background: white;
+}
+.pocket{
+    display: flex;
+    width: 75%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /*flex-direction: row;*/
+}
+

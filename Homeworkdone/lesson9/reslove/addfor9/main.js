@@ -311,15 +311,35 @@ for (const element of usersList) {
     bs.classList.add(`fourth`);
     bs.innerHTML =`Bs:${element.company.bs}`;
     company.appendChild(bs);
-
-
 }
 
 
 // --------
 //     за допомоги рекурсії перебрати структуру сторінки. зробити об'єкт, всі заголовки покласти в (масив) характеристику headings,всі параграфи покласти в характеристику (масив) paragraphs
+//  let arr = [];
+// let head = [];
+// let text = [];
 //
+// function exploader(htmlLement){
+//     console.log(htmlLement);
+//     arr.push(htmlLement);
+//
+//     let children = htmlLement.children;
+//
+//         for (const child of children) {
+//             exploader(child);
+//             head.push(htmlLement.classList(`hed`))
+//
+//         }
+//
+// }
+// exploader(document.body);
+// console.log(arr);
+// console.log(text);
+// console.log(head);
 // ------
 //
 //     зробити div contenteditable ввести будь яке ціле слово. та при натисканні табуляції перетворити його на подвійний тег
 // asd ->tab-> <asd></asd>
+
+

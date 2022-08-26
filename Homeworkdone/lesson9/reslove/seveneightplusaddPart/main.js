@@ -1,6 +1,6 @@
 //     - Створити довільний елемент з id = text.  Використовуючи JavaScript, зробіть так, щоб при натисканні на кнопку зникав елемент з id="text".
 
-
+//
 // function hiding() {
 //     let x = document.getElementById("myd");
 //     if (x.style.display === "none") {
