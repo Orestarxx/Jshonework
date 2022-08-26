@@ -18,7 +18,7 @@ fetch(`https://jsonplaceholder.typicode.com/users`)
             butt.classList.add(`button-85`)
             div.appendChild(butt)
             let a = document.createElement(`a`);
-            a.href =`index1.html?id=${user.id}`;
+            a.href =`index2.html?id=${user.id}`;
             a.innerText =`details`;
             butt.appendChild(a);
         }
