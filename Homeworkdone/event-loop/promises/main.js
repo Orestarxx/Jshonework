@@ -3,11 +3,11 @@ let hitPoints = 0;
 function awake (startingDay){
 return new Promise((resolve,reject) =>{
     setTimeout(() =>{
-    if(startingDay){
+    if(!startingDay){
        hitPoints += 1500;
        resolve(hitPoints);
     }else {
-        console.log(`я залишився лежати на дивані`);
+        // console.log(`я залишився лежати на дивані`);
         reject(`залишився лежати на дивані`);
     }
 
@@ -124,7 +124,7 @@ function coding (code){
     return new Promise((resolve, reject) =>{
         setTimeout(() =>{
         if (code){
-        console.log(`коджу щось за ради практики`);
+        // console.log(`коджу щось за ради практики`);
         hitPoints -= 250;
         resolve(hitPoints);
         }else{
@@ -193,7 +193,7 @@ awake(true)
         return haveLunch(tusk);
     })
     .then(lunch =>{
-            console.log(` I was hungry because I hadnt eaten from the morning ang got some points,`, lunch);
+            console.log(` I was hungry because I hadnt eaten from the morning and got some points,`, lunch);
         return oneMoreTimeWatchLecture(lunch);
     })
     .then(oneMoreLecture =>{
@@ -210,4 +210,7 @@ awake(true)
     })
     .then(fromSergiy =>{
             console.log(`Lecture from Sergiy was hard to understand and I as a usual lost a lot.For now I have`, fromSergiy,`but its too late maybe I must go sleep and recover my self `);
+    })
+    .catch(reason => {
+       console.warn(`I didnt wake up and stayed in bed.`,reason) ;
     })
