@@ -3,7 +3,7 @@ let hitPoints = 0;
 function awake (startingDay){
 return new Promise((resolve,reject) =>{
     setTimeout(() =>{
-    if(!startingDay){
+    if(startingDay){
        hitPoints += 1500;
        resolve(hitPoints);
     }else {
@@ -209,7 +209,7 @@ awake(true)
         return haveLectureFromSergiy(supp);
     })
     .then(fromSergiy =>{
-            console.log(`Lecture from Sergiy was hard to understand and I as a usual lost a lot.For now I have`, fromSergiy,`but its too late maybe I must go sleep and recover my self `);
+            console.log(`Lecture from Sergiy was hard to understand and I as a usual lost a lot.For now I have`, fromSergiy,`but its too late maybe I must go sleep and recover myself `);
     })
     .catch(reason => {
        console.warn(`I didnt wake up and stayed in bed.`,reason) ;
